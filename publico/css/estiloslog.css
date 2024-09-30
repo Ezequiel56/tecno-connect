@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #03023b;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    position:absolute; /* Establece la posición fija */
+    top: 0; /* Coloca el encabezado en la parte superior */
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0px;
+  }
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex-direction: column;
+    margin-right: 70%;
+    margin-top: 100px;
+}
+
+form h1 {
+    text-align: left; /* Alinea el texto "Login" a la izquierda */
+    margin-left: 20px; /* Margen izquierdo para el título */
+    margin: 0px;
+}
+
+
+
+
+
+/* Estilos para la imagen a la derecha del formulario */
+.right-image {
+   text-align: right;
+   margin-right: 100px;
+}
